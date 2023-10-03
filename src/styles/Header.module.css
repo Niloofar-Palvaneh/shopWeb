@@ -1,0 +1,22 @@
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  color: rgb(77, 76, 73) !important;
+  font-weight: bold !important;
+  display: none;
+  background-color: rgba(141, 141, 141, 0.522);
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.swiper:hover .swiper-button-next::after {
+  display: inline !important;
+}
+
+.swiper:hover .swiper-button-prev::after {
+  display: inline !important;
+}
+
+.nn{
+  background-color: brown !important;
+}

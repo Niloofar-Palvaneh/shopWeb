@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+@font-face {
+  font-family: "iransansWoff";
+  src: url("./fonts/IRANSansWeb\(FaNum\).woff");
+}
+
+@font-face {
+  font-family: "iransansWoff2";
+  src: url("./fonts/IRANSansWeb\(FaNum\).woff2");
+}
+
+@font-face {
+  font-family: "iransansWoff";
+  src: url("./fonts/IRANSansWeb\(FaNum\).eot");
+}
+
+body {
+  direction: rtl;
+  font-family: "iransansWoff", "iransansWoff2", "iransansWoff";
+}
+
+
+.active {
+  color: rgb(255, 85, 85);
+}
+
+nav {
+  background-color: #3c3cc5;
+  height: 65px;
+}
+
+.menu-custom-styles {
+  display: inline;
+  transition-duration: .3s;
+}
