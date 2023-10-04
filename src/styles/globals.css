@@ -51,3 +51,16 @@ nav {
   display: inline;
   transition-duration: .3s;
 }
+
+.swiper-button-prev::after{
+  font-weight: bold;
+  text-shadow: 8px 1px 3px #8fff00;
+  color: white;
+  -webkit-text-stroke: thick
+}
+.swiper-button-next::after{
+  font-weight: bold;
+  text-shadow: -8px 1px 3px #8fff00;
+  color: white;
+  -webkit-text-stroke: thick
+}
