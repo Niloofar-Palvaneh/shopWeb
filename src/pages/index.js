@@ -1,6 +1,6 @@
 
 import Title from '@/components/title/Title'
-import GroupingBox from '@/components/groupingBox/groupingBox'
+import GroupingBox from '@/components/groupingBox/GroupingBox'
 
 import { TbMoodKid, TbTeapot } from "react-icons/tb"
 import { PiTelevisionSimple } from "react-icons/pi"
