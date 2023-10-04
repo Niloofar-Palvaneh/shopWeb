@@ -20,9 +20,9 @@ export default function OffBox() {
 
             <div className={`bg-orange-600 p-6 rounded-xl mt-12 ${showOffBox && "hidden"}`}>
                 <div>
-                    <div className='text-white flex items-center justify-between'>
+                    <div className='text-white flex items-center justify-between sm:flex-col sm:gap-4'>
                         <span className='text-xl font-bold flex items-center gap-2'>
-                            <div className='w-[15px] h-[15px] bg-gray-200 rounded-full'></div>
+                            <div className='w-[15px] h-[15px] bg-gray-200 rounded-full sm:hidden'></div>
                             تا پایان تخفیف محصولات
                         </span>
                         <div className='flex items-start gap-4'>
@@ -39,6 +39,18 @@ export default function OffBox() {
                     <div className='w-full h-[6px] bg-red-700 rounded my-4'></div>
                     <div>
                         <Swiper
+                        breakpoints={{
+                            // when window width is >= 640px
+                            300: {
+                              width: 300,
+                              slidesPerView: 1,
+                            },
+                            // when window width is >= 768px
+                            600: {
+                              width: 600,
+                              slidesPerView: 2,
+                            },
+                          }}
                             slidesPerView={4}
                             spaceBetween={30}
                             navigation={true} modules={[Navigation]} loop={true} className="mySwiper p-12 ">
@@ -79,7 +91,7 @@ export default function OffBox() {
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide className='bg-white p-4 rounded-xl flex gap-4 flex-col items-center justify-center overflow-hidden relative'>
-                                <div className='bg-red-400 text-white p-1 text-sm rounded absolute top-0 right-0'>
+                                <div className='bg-red-400 text-white p-1 text-sm rounded absolute top-0 right-0 z-50'>
                                     12 درصد
                                 </div>
                                 <Image className='transition duration-300 ease-in-out hover:scale-125' src={"/imgs/ton.webp"} width={120} height={100} />
