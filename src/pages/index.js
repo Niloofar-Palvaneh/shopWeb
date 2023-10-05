@@ -6,9 +6,9 @@ import { TbMoodKid, TbTeapot } from "react-icons/tb"
 import { PiTelevisionSimple } from "react-icons/pi"
 import { HiOutlineLightBulb } from "react-icons/hi"
 
-import Image from 'next/image'
 import OffBox from '@/components/offBox/OffBox'
 import NewProduct from '@/components/newProducts/NewProduct'
+import PopularProducts from '@/components/popularProducts/PopularProducts'
 
 
 export default function Home() {
@@ -35,7 +35,7 @@ export default function Home() {
         <OffBox />
       </div>
         <NewProduct/>
-
+        <PopularProducts/>
     </>
   )
 }
