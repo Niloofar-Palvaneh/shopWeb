@@ -9,6 +9,7 @@ import { HiOutlineLightBulb } from "react-icons/hi"
 import OffBox from '@/components/offBox/OffBox'
 import NewProduct from '@/components/newProducts/NewProduct'
 import PopularProducts from '@/components/popularProducts/PopularProducts'
+import OtherProducts from '@/components/otherProducts/OtherProducts'
 
 
 export default function Home() {
@@ -36,6 +37,7 @@ export default function Home() {
       </div>
         <NewProduct/>
         <PopularProducts/>
+        <OtherProducts/>
     </>
   )
 }
