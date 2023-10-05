@@ -7,13 +7,23 @@ import { TfiMenu } from "react-icons/tfi"
 import { AiOutlineClose } from "react-icons/ai"
 import { useState } from "react"
 
+import LoginModal from "../loginModal/LoginModal"
+
 export default function Navbar() {
-    const [showMobileMenu , setShowMobileMenu] = useState(false)
-    const ShowMobileMenuHandler = ()=>{
+    const [showLoginModal, setShowLoginModal] = useState(false)
+    const [showMobileMenu, setShowMobileMenu] = useState(false)
+    const ShowMobileMenuHandler = () => {
         setShowMobileMenu(!showMobileMenu)
     }
+    const showLoginModalHandler = () => {
+        setShowLoginModal(true)
+    }
+
     return (
         <>
+        {
+            showLoginModal && <LoginModal/>
+        }
             <div className="flex px-[200px] py-4 items-center justify-between xl:px-[10px]">
                 <Link href={"#"}>
                     <h1 className="text-gray-700 font-bold text-2xl">نام فروشگاه</h1>
@@ -23,9 +33,11 @@ export default function Navbar() {
                     <input className="border-none outline-none bg-inherit" type="text" placeholder="جستجو در فروشگاه..." />
                     <button className="text-gray-400 p-2 hover:bg-gray-300 hover:rounded-l-md transition ease-in hover:text-gray-500">جستجو</button>
                 </div>
-                <Link href={"#"} className="text-gray-500 md:hidden">
+                <div
+                    onClick={ showLoginModalHandler}
+                    href={"#"} className="text-gray-500 sm:text-sm cursor-pointer">
                     ورود/ثبت نام در سایت
-                </Link>
+                </div>
                 <Link href={"#"} className="bg-orange-600 p-2 rounded-xl sm:hidden ">
                     <HiOutlineShoppingBag className="text-white text-3xl" />
                 </Link>
@@ -35,8 +47,8 @@ export default function Navbar() {
                 </div>
 
                 <div
-                onClick={ShowMobileMenuHandler}
-                className="text-2xl bg-gray-400 p-2 hidden sm:inline md:inline">
+                    onClick={ShowMobileMenuHandler}
+                    className="text-2xl bg-gray-400 p-2 hidden sm:inline md:inline">
                     <TfiMenu />
                 </div>
             </div>

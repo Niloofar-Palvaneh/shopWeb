@@ -47,7 +47,7 @@ export default function PopularProducts() {
                             bg-cover bg-center
                             ' >
                         </div>
-                        <div className='bg-red-400 text-white p-1 text-sm rounded absolute top-0 right-0 z-50'>
+                        <div className='bg-red-400 text-white p-1 text-sm rounded absolute top-0 right-0 z-20'>
                             12 درصد
                         </div>
                         <div className='flex flex-col gap-2 items-center justify-center'>

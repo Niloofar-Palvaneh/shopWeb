@@ -5,9 +5,9 @@ export default function Footer() {
 
     return (
         <>
-            <div className="bg-[url('/imgs/moo.png')] bg-cover bg-center px-[200px] py-12 xl:px-[10px] flex flex-col gap-12">
+            <div className="bg-[url('/imgs/moo.png')] bg-cover bg-center px-[200px] py-12 xl:px-[10px] flex flex-col gap-12 w-full">
                 <div>
-                    <div className=" flex items-center justify-between">
+                    <div className=" flex items-center justify-between sm:flex-col sm:gap-4">
                         <div className="flex  items-center gap-4">
                             <Image src={"/imgs/foo1.webp"} width={60} height={60} />
                             <div>
@@ -54,13 +54,13 @@ export default function Footer() {
                         </div>
                     </div>
                 </div>
-                <div className="flex items-start justify-between gap-12">
+                <div className="flex items-start justify-between gap-12 sm:flex-col md:flex-col">
                     <div className="flex flex-col gap-4">
                         <span className="font-bold text-gray-600 text-[17px] flex items-center gap-2">
                             <div className="w-[13px] h-[13px] bg-orange-600 rounded-full"></div>
                             درباره فروشگاه ما
                         </span>
-                        <p className="text-[12px] text-gray-600 w-[450px] leading-6">
+                        <p className="text-[12px] text-gray-600 w-[450px] sm:w-full md:w-full leading-6">
                             من یک پاراگراف هستم درمورد این بخش که شما می‌توانید به راحتی با دوبار کلیک برروی من، استایل و ابعاد و... من را تغییر دهید.
                             من یک پاراگراف هستم درمورد این بخش که شما می‌توانید به راحتی با دوبار کلیک برروی من، استایل و ابعاد و... من را تغییر دهید.
                         </p>
