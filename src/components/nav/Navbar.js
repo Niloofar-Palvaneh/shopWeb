@@ -16,13 +16,13 @@ export default function Navbar() {
         setShowMobileMenu(!showMobileMenu)
     }
     const showLoginModalHandler = () => {
-        setShowLoginModal(true)
+        setShowLoginModal(!showLoginModal)
     }
 
     return (
         <>
         {
-            showLoginModal && <LoginModal/>
+            showLoginModal && <LoginModal showLoginModalHandler={showLoginModalHandler}/>
         }
             <div className="flex px-[200px] py-4 items-center justify-between xl:px-[10px]">
                 <Link href={"#"}>
