@@ -40,12 +40,10 @@ export default function OffBox() {
                     <div>
                         <Swiper
                         breakpoints={{
-                            // when window width is >= 640px
                             300: {
                               width: 300,
                               slidesPerView: 1,
                             },
-                            // when window width is >= 768px
                             600: {
                               width: 600,
                               slidesPerView: 2,
@@ -53,7 +51,7 @@ export default function OffBox() {
                           }}
                             slidesPerView={4}
                             spaceBetween={30}
-                            navigation={true} modules={[Navigation]} loop={true} className="mySwiper p-12 ">
+                            navigation={true} modules={[Navigation]} loop={true} className="mySwiper p-12 sm:p-0 md:p-0 ">
                             <SwiperSlide className='bg-white p-4 rounded-xl flex gap-4 flex-col items-center justify-center overflow-hidden'>
                                 <Image className='transition duration-300 ease-in-out hover:scale-125' src={"/imgs/goshi.webp"} width={120} height={100} />
                                 <div className='flex flex-col gap-2 items-center justify-center'>

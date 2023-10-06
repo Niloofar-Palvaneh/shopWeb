@@ -64,9 +64,12 @@ export default function Navbar() {
             </div>
 
 
-            <div className={`transition-all ${showMobileMenu ? "menu-custom-styles" : "hidden"}`}>
-                <ul className="flex flex-col gap-4 absolute top-0 bg-white z-50 w-1/2 h-screen shadow px-4 pt-8">
-                    <div className="flex items-center justify-end w-full ">
+            <div className={`${showMobileMenu ? "inline" : "hidden"} transition-all duration-500 ease-in`}>
+                <ul className="flex flex-col gap-4 fixed top-0 bg-[url('/imgs/moo.png')] bg-cover bg-center bg-white
+                    z-50 w-full h-auto shadow px-4 pt-2 pb-4 border-b border-b-2 border-orange-500">
+                    <div
+                    onClick={ShowMobileMenuHandler}
+                    className="flex items-center justify-end w-full ">
                         <AiOutlineClose className="text-3xl bg-gray-400 p-2 text-red-500" />
                     </div>
                     <Link href={"#"} className="transition ease-in-out hover:text-red-400 active">خانه</Link>

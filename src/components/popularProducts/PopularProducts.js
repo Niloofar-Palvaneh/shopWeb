@@ -100,7 +100,7 @@ export default function PopularProducts() {
                     </div>
                 </div>
                 <div className="flex items-center justify-center mt-4">
-                    <div className="flex items-center justify-center gap-8 sm:flex-col md:flex-col">
+                    <div className="flex items-center justify-center gap-8 sm:flex-col md:flex-col sm:w-full">
                         <Link href={"#"} className="w-[580px] sm:w-full md:w-[600px]">
                             <Image src={"/imgs/55.webp"} width={200} height={100} className="w-full rounded-md" />
                         </Link>

@@ -40,20 +40,20 @@ export default function Header() {
                         spaceBetween={30}
                         centeredSlides={true}
                         autoplay={{
-                            delay: 2500,
+                            delay: 4000,
                             disableOnInteraction: false,
                         }}
                         modules={[Autoplay, Pagination, Navigation]}
                         className="mySwiper"
                     >
                         <SwiperSlide>
-                            <Image className="w-full sm:h-[150px]" src={"/imgs/slid1.webp"} width={200} height={200} alt="slid img" />
+                            <Image className="w-full sm:h-[230px]" src={"/imgs/slid1.webp"} width={200} height={200} alt="slid img" />
                         </SwiperSlide>
                         <SwiperSlide>
-                            <Image className="w-full sm:h-[150px]" src={"/imgs/slid2.webp"} width={200} height={200} alt="slid img" />
+                            <Image className="w-full sm:h-[230px]" src={"/imgs/slid2.webp"} width={200} height={200} alt="slid img" />
                         </SwiperSlide>
                         <SwiperSlide>
-                            <Image className="w-full sm:h-[150px]" src={"/imgs/slid3.webp"} width={200} height={200} alt="slid img" />
+                            <Image className="w-full sm:h-[230px]" src={"/imgs/slid3.webp"} width={200} height={200} alt="slid img" />
                         </SwiperSlide>
                     </Swiper>
                 </div>

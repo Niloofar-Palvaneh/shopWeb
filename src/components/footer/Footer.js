@@ -7,7 +7,7 @@ export default function Footer() {
         <>
             <div className="bg-[url('/imgs/moo.png')] bg-cover bg-center px-[200px] py-12 xl:px-[10px] flex flex-col gap-12 w-full">
                 <div>
-                    <div className=" flex items-center justify-between sm:flex-col sm:gap-4">
+                    <div className=" flex items-center justify-between md:grid md:grid-cols-2 sm:flex sm:flex-col sm:gap-4 ">
                         <div className="flex  items-center gap-4">
                             <Image src={"/imgs/foo1.webp"} width={60} height={60} />
                             <div>
@@ -23,7 +23,7 @@ export default function Footer() {
                             <Image src={"/imgs/foo2.webp"} width={60} height={60} />
                             <div>
                                 <span className="font-bold text-gray-600">
-                                    ارسال سریع سفارش
+                                    تحویل به موقه
                                 </span>
                                 <p className="text-sm text-gray-500 mt-2">
                                     سریع ارسال میشود.
@@ -34,7 +34,7 @@ export default function Footer() {
                             <Image src={"/imgs/foo3.webp"} width={60} height={60} />
                             <div>
                                 <span className="font-bold text-gray-600">
-                                    ارسال سریع سفارش
+                                  پیگیری
                                 </span>
                                 <p className="text-sm text-gray-500 mt-2">
                                     سریع ارسال میشود.

@@ -99,12 +99,12 @@ export default function NewProduct() {
                     </div>
                 </div>
                 <div className="flex items-center justify-center mt-4">
-                    <div className="flex items-center justify-center gap-8 sm:flex-col md:flex-col">
-                        <Link href={"#"} className="w-[580px] sm:w-full md:w-[600px]">
-                            <Image src={"/imgs/22.webp"} width={200} height={100} className="w-full rounded-md" />
+                    <div className="flex items-center justify-center gap-8 sm:flex-col sm:w-full md:flex-col">
+                        <Link href={"#"} className="w-[580px] sm:w-full md:w-[600px] ">
+                            <Image src={"/imgs/22.webp"} width={200} height={100} className=" rounded-md w-full " />
                         </Link>
-                        <Link href={"#"} className="w-[580px] sm:w-full md:w-[600px]">
-                            <Image src={"/imgs/33.webp"} width={200} height={100} className="w-full rounded-md" />
+                        <Link href={"#"} className="w-[580px] sm:w-full md:w-[600px] ">
+                            <Image src={"/imgs/33.webp"} width={200} height={100} className=" rounded-md w-full " />
                         </Link>
                     </div>
                 </div>
