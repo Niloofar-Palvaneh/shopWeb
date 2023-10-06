@@ -5,7 +5,7 @@ import Image from "next/image"
 export default function NewProduct() {
     return (
         <>
-            <div className="mt-12 flex flex-col gap-8">
+            <div className="mt-12 flex flex-col gap-8 px-[200px]">
                 <Title title="جدیدترین محصولات فروشگاه" />
                 <div className="grid grid-cols-5 gap-4 sm:grid-cols-1 md:grid-cols-2">
                     <div className="p-4 border rounded overflow-hidden shadow flex flex-col items-center justify-center group">

@@ -10,13 +10,15 @@ import OffBox from '@/components/offBox/OffBox'
 import NewProduct from '@/components/newProducts/NewProduct'
 import PopularProducts from '@/components/popularProducts/PopularProducts'
 import OtherProducts from '@/components/otherProducts/OtherProducts'
+import Header from '@/components/header/Header'
 
 
 export default function Home() {
 
   return (
     <>
-      <div className='mt-24'>
+    <Header/>
+      <div className='mt-24 px-[200px]'>
         <div className='flex items-cente sm:flex-col'>
           <Title title="دسته بندی مورد نظر خود را انتخاب کنید" />
           <p className='text-gray-500'>
@@ -33,8 +35,8 @@ export default function Home() {
           <GroupingBox icon={<PiTelevisionSimple />} des="صوتی تصویری" />
           <GroupingBox icon={<HiOutlineLightBulb />} des="نور و روشنایی" />
         </div>
-        <OffBox />
       </div>
+        <OffBox />
         <NewProduct/>
         <PopularProducts/>
         <OtherProducts/>
