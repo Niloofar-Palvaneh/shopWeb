@@ -1,11 +1,12 @@
 import Link from "next/link"
+import Image from "next/image"
 
 export default function Products() {
 
     return (
         <>
-            <div>
-                <div className="flex flex-col gap-4 px-[200px] w-[40%] mt-8">
+            <div className="flex px-[200px]">
+                <div className="flex flex-col gap-4  w-[40%] mt-8">
                     <div className="flex flex-col gap-2 border-b border-dashed border-orange-500 pb-4">
                         <span className="text-gray-900 font-bold">
                             دسته ها
@@ -56,6 +57,104 @@ export default function Products() {
                                 <input type="checkbox" name="xxxl" />
                                 <label htmlFor="xxxl">xxxl</label>
                             </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="grid grid-cols-3 w-full gap-2 mr-4 mt-8 mb-8">
+                    <div className="border group overflow-hidden p-2 rounded flex flex-col items-center gap-4">
+                        <Image className="group-hover:scale-110 transition ease-in-out delay-150 duration-300 "
+                            src={"/imgs/goshi.webp"} width={150} height={150} alt="product" />
+                        <div className="flex flex-col gap-2 items-center justify-center">
+                            <h6 className="text-xl font-bold">
+                                گوشی موبایل
+                            </h6>
+                            <p className="text-gray-600 text-sm">
+                                گوشی موبایل ایفون توضیحات تکمیلی در مورد آن
+                            </p>
+                            <span className="text-red-700">
+                                50000
+                                تومان
+                            </span>
+                        </div>
+                    </div>
+                    <div className="border group overflow-hidden p-2 rounded flex flex-col items-center gap-4">
+                        <Image className="group-hover:scale-110 transition ease-in-out delay-150 duration-300 "
+                            src={"/imgs/seshoar.webp"} width={150} height={150} alt="product" />
+                        <div className="flex flex-col gap-2 items-center justify-center">
+                            <h6 className="text-xl font-bold">
+                                سشوار
+                            </h6>
+                            <p className="text-gray-600 text-sm">
+                                سشوار برای خشک کردن و حالت دادن به مو
+                            </p>
+                            <span className="text-red-700">
+                                80000
+                                تومان
+                            </span>
+                        </div>
+                    </div>
+                    <div className="border group overflow-hidden p-2 rounded flex flex-col items-center gap-4">
+                        <Image className="group-hover:scale-110 transition ease-in-out delay-150 duration-300 "
+                            src={"/imgs/laptap.webp"} width={150} height={150} alt="product" />
+                        <div className="flex flex-col gap-2 items-center justify-center">
+                            <h6 className="text-xl font-bold">
+                                لبتاب
+                            </h6>
+                            <p className="text-gray-600 text-sm">
+                                لبتاب برای انجام کارهایی مانند وبگردی و بازی
+                            </p>
+                            <span className="text-red-700">
+                                5000000
+                                تومان
+                            </span>
+                        </div>
+                    </div>
+                    <div className="border group overflow-hidden p-2 rounded flex flex-col items-center gap-4">
+                        <Image className="group-hover:scale-110 transition ease-in-out delay-150 duration-300 "
+                            src={"/imgs/ton.webp"} width={150} height={150} alt="product" />
+                        <div className="flex flex-col gap-2 items-center justify-center">
+                            <h6 className="text-xl font-bold">
+                                تن ماهی طبیعت
+                            </h6>
+                            <p className="text-gray-600 text-sm">
+                                گرسنی معنا ندارد
+                            </p>
+                            <span className="text-red-700">
+                                500
+                                تومان
+                            </span>
+                        </div>
+                    </div>
+                    <div className="border group overflow-hidden p-2 rounded flex flex-col items-center gap-4">
+                        <Image className="group-hover:scale-110 transition ease-in-out delay-150 duration-300 "
+                            src={"/imgs/handzfree.webp"} width={150} height={150} alt="product" />
+                        <div className="flex flex-col gap-2 items-center justify-center">
+                            <h6 className="text-xl font-bold">
+                                هندزفری
+                            </h6>
+                            <p className="text-gray-600 text-sm">
+                                هندزفری بلوتوثی بی سیم و کاربردی
+                            </p>
+                            <span className="text-red-700">
+                                90000
+                                تومان
+                            </span>
+                        </div>
+                    </div>
+                    <div className="border group overflow-hidden p-2 rounded flex flex-col items-center gap-4">
+                        <Image className="group-hover:scale-110 transition ease-in-out delay-150 duration-300 "
+                            src={"/imgs/tshert.webp"} width={150} height={150} alt="product" />
+                        <div className="flex flex-col gap-2 items-center justify-center">
+                            <h6 className="text-xl font-bold">
+                                تیشرت
+                            </h6>
+                            <p className="text-gray-600 text-sm">
+                                تیشرت لانگ پنبه اصل
+                            </p>
+                            <span className="text-red-700">
+                                12000
+                                تومان
+                            </span>
                         </div>
                     </div>
                 </div>
