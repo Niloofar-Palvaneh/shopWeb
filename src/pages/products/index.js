@@ -2,6 +2,50 @@ import Link from "next/link"
 import Image from "next/image"
 
 export default function Products() {
+    const productsArry = [
+        {
+            id: 1,
+            name: "گوشی موبایل ",
+            des: "گوشی موبایل ایفون توضیحات تکمیلی در مورد آن",
+            price: "250000",
+            img: "/imgs/goshi.webp"
+        },
+        {
+            id: 2,
+            name: "شسوار",
+            des: "سشوار  مسافرتی توضیحات تکمیلی در مورد آن",
+            price: "250000",
+            img: "/imgs/seshoar.webp"
+        },
+        {
+            id: 3,
+            name: "لبتاب",
+            des: "  لبتاب سامسونگ توضیحات تکمیلی در مورد آن",
+            price: "250000",
+            img: "/imgs/laptap.webp"
+        },
+        {
+            id: 4,
+            name: "تن ماهی",
+            des: "تن ماهی توضیحات تکمیلی در مورد آن",
+            price: "250000",
+            img: "/imgs/ton.webp"
+        },
+        {
+            id: 5,
+            name: "هندزفری",
+            des: "هندزفری توضیحات تکمیلی در مورد آن",
+            price: "250000",
+            img: "/imgs/handzfree.webp"
+        },
+        {
+            id: 6,
+            name: "تیشرت",
+            des: "تیشرت توضیحات تکمیلی در مورد آن",
+            price: "250000",
+            img: "/imgs/tshert.webp"
+        },
+    ]
 
     return (
         <>
@@ -61,102 +105,29 @@ export default function Products() {
                     </div>
                 </div>
                 <div className="grid grid-cols-3 md:grid-cols-2 sm:grid-cols-1 w-full gap-2 mr-4 mt-8 mb-8 sm:m-0 sm:mt-4">
-                    <div className="border group overflow-hidden p-2 rounded flex flex-col items-center gap-4">
-                        <Image className="group-hover:scale-110 transition ease-in-out delay-150 duration-300 "
-                            src={"/imgs/goshi.webp"} width={150} height={150} alt="product" />
-                        <div className="flex flex-col gap-2 items-center justify-center">
-                            <h6 className="text-xl font-bold sm:text-sm">
-                                گوشی موبایل
-                            </h6>
-                            <p className="text-gray-600 text-sm">
-                                گوشی موبایل ایفون توضیحات تکمیلی در مورد آن
-                            </p>
-                            <span className="text-red-700">
-                                50000
-                                تومان
-                            </span>
-                        </div>
-                    </div>
-                    <div className="border group overflow-hidden p-2 rounded flex flex-col items-center gap-4">
-                        <Image className="group-hover:scale-110 transition ease-in-out delay-150 duration-300 "
-                            src={"/imgs/seshoar.webp"} width={150} height={150} alt="product" />
-                        <div className="flex flex-col gap-2 items-center justify-center">
-                            <h6 className="text-xl font-bold  sm:text-sm">
-                                سشوار
-                            </h6>
-                            <p className="text-gray-600 text-sm">
-                                سشوار برای خشک کردن و حالت دادن به مو
-                            </p>
-                            <span className="text-red-700">
-                                80000
-                                تومان
-                            </span>
-                        </div>
-                    </div>
-                    <div className="border group overflow-hidden p-2 rounded flex flex-col items-center gap-4">
-                        <Image className="group-hover:scale-110 transition ease-in-out delay-150 duration-300 "
-                            src={"/imgs/laptap.webp"} width={150} height={150} alt="product" />
-                        <div className="flex flex-col gap-2 items-center justify-center">
-                            <h6 className="text-xl font-bold  sm:text-sm">
-                                لبتاب
-                            </h6>
-                            <p className="text-gray-600 text-sm">
-                                لبتاب برای انجام کارهایی مانند وبگردی و بازی
-                            </p>
-                            <span className="text-red-700">
-                                5000000
-                                تومان
-                            </span>
-                        </div>
-                    </div>
-                    <div className="border group overflow-hidden p-2 rounded flex flex-col items-center gap-4">
-                        <Image className="group-hover:scale-110 transition ease-in-out delay-150 duration-300 "
-                            src={"/imgs/ton.webp"} width={150} height={150} alt="product" />
-                        <div className="flex flex-col gap-2 items-center justify-center">
-                            <h6 className="text-xl font-bold  sm:text-sm">
-                                تن ماهی طبیعت
-                            </h6>
-                            <p className="text-gray-600 text-sm">
-                                گرسنی معنا ندارد
-                            </p>
-                            <span className="text-red-700">
-                                500
-                                تومان
-                            </span>
-                        </div>
-                    </div>
-                    <div className="border group overflow-hidden p-2 rounded flex flex-col items-center gap-4">
-                        <Image className="group-hover:scale-110 transition ease-in-out delay-150 duration-300 "
-                            src={"/imgs/handzfree.webp"} width={150} height={150} alt="product" />
-                        <div className="flex flex-col gap-2 items-center justify-center">
-                            <h6 className="text-xl font-bold  sm:text-sm">
-                                هندزفری
-                            </h6>
-                            <p className="text-gray-600 text-sm">
-                                هندزفری بلوتوثی بی سیم و کاربردی
-                            </p>
-                            <span className="text-red-700">
-                                90000
-                                تومان
-                            </span>
-                        </div>
-                    </div>
-                    <div className="border group overflow-hidden p-2 rounded flex flex-col items-center gap-4">
-                        <Image className="group-hover:scale-110 transition ease-in-out delay-150 duration-300 "
-                            src={"/imgs/tshert.webp"} width={150} height={150} alt="product" />
-                        <div className="flex flex-col gap-2 items-center justify-center">
-                            <h6 className="text-xl font-bold  sm:text-sm">
-                                تیشرت
-                            </h6>
-                            <p className="text-gray-600 text-sm">
-                                تیشرت لانگ پنبه اصل
-                            </p>
-                            <span className="text-red-700">
-                                12000
-                                تومان
-                            </span>
-                        </div>
-                    </div>
+                    {
+                        productsArry.map(arry => (
+                            <div className="border group overflow-hidden p-2 rounded flex flex-col items-center gap-4">
+                                <Image className="group-hover:scale-110 transition ease-in-out delay-150 duration-300 "
+                                    src={arry.img} width={150} height={150} alt="product" />
+                                <div className="flex flex-col gap-2 items-center justify-center">
+                                    <h6 className="text-xl font-bold sm:text-sm">
+                                        {arry.name}
+                                    </h6>
+                                    <p className="text-gray-600 text-sm">
+                                        {arry.des}
+                                    </p>
+                                    <span className="text-red-700">
+                                        {arry.price}
+                                        تومان
+                                    </span>
+                                </div>
+                                <Link className="bg-orange-500 text-white rounded p-2" href={`/products/${arry.id}`}>
+                                    مشاهده محصول
+                                </Link>
+                            </div>
+                        ))
+                    }
                 </div>
             </div>
         </>
