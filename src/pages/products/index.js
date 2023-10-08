@@ -5,7 +5,7 @@ export default function Products() {
 
     return (
         <>
-            <div className="flex px-[200px]">
+            <div className="flex px-[200px] sm:px-0 md:px-0 xl:px-[20px]">
                 <div className="flex flex-col gap-4  w-[40%] mt-8">
                     <div className="flex flex-col gap-2 border-b border-dashed border-orange-500 pb-4">
                         <span className="text-gray-900 font-bold">
@@ -60,12 +60,12 @@ export default function Products() {
                         </div>
                     </div>
                 </div>
-                <div className="grid grid-cols-3 w-full gap-2 mr-4 mt-8 mb-8">
+                <div className="grid grid-cols-3 sm:grid-cols-2 w-full gap-2 mr-4 mt-8 mb-8">
                     <div className="border group overflow-hidden p-2 rounded flex flex-col items-center gap-4">
                         <Image className="group-hover:scale-110 transition ease-in-out delay-150 duration-300 "
                             src={"/imgs/goshi.webp"} width={150} height={150} alt="product" />
                         <div className="flex flex-col gap-2 items-center justify-center">
-                            <h6 className="text-xl font-bold">
+                            <h6 className="text-xl font-bold sm:text-sm">
                                 گوشی موبایل
                             </h6>
                             <p className="text-gray-600 text-sm">
@@ -81,7 +81,7 @@ export default function Products() {
                         <Image className="group-hover:scale-110 transition ease-in-out delay-150 duration-300 "
                             src={"/imgs/seshoar.webp"} width={150} height={150} alt="product" />
                         <div className="flex flex-col gap-2 items-center justify-center">
-                            <h6 className="text-xl font-bold">
+                            <h6 className="text-xl font-bold  sm:text-sm">
                                 سشوار
                             </h6>
                             <p className="text-gray-600 text-sm">
@@ -97,7 +97,7 @@ export default function Products() {
                         <Image className="group-hover:scale-110 transition ease-in-out delay-150 duration-300 "
                             src={"/imgs/laptap.webp"} width={150} height={150} alt="product" />
                         <div className="flex flex-col gap-2 items-center justify-center">
-                            <h6 className="text-xl font-bold">
+                            <h6 className="text-xl font-bold  sm:text-sm">
                                 لبتاب
                             </h6>
                             <p className="text-gray-600 text-sm">
@@ -113,7 +113,7 @@ export default function Products() {
                         <Image className="group-hover:scale-110 transition ease-in-out delay-150 duration-300 "
                             src={"/imgs/ton.webp"} width={150} height={150} alt="product" />
                         <div className="flex flex-col gap-2 items-center justify-center">
-                            <h6 className="text-xl font-bold">
+                            <h6 className="text-xl font-bold  sm:text-sm">
                                 تن ماهی طبیعت
                             </h6>
                             <p className="text-gray-600 text-sm">
@@ -129,7 +129,7 @@ export default function Products() {
                         <Image className="group-hover:scale-110 transition ease-in-out delay-150 duration-300 "
                             src={"/imgs/handzfree.webp"} width={150} height={150} alt="product" />
                         <div className="flex flex-col gap-2 items-center justify-center">
-                            <h6 className="text-xl font-bold">
+                            <h6 className="text-xl font-bold  sm:text-sm">
                                 هندزفری
                             </h6>
                             <p className="text-gray-600 text-sm">
@@ -145,7 +145,7 @@ export default function Products() {
                         <Image className="group-hover:scale-110 transition ease-in-out delay-150 duration-300 "
                             src={"/imgs/tshert.webp"} width={150} height={150} alt="product" />
                         <div className="flex flex-col gap-2 items-center justify-center">
-                            <h6 className="text-xl font-bold">
+                            <h6 className="text-xl font-bold  sm:text-sm">
                                 تیشرت
                             </h6>
                             <p className="text-gray-600 text-sm">

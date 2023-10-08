@@ -89,7 +89,7 @@ export default function Navbar() {
                     <Link href={"/products"} className="transition ease-in-out hover:text-red-400">خانه و آشپزخانه</Link>
                     <Link href={"/products"} className="transition ease-in-out hover:text-red-400">خودرو و ابزار</Link>
                     <Link href={"/products"} className="transition ease-in-out hover:text-red-400">سوپر مارکت</Link>
-                    <Link href={"/products"} className="transition ease-in-out hover:text-red-400">تماس با ما</Link>
+                    <Link href={"/cantact"} className="transition ease-in-out hover:text-red-400">تماس با ما</Link>
                     <Link href={"/products"} className="transition ease-in-out hover:text-red-400">بلاگ</Link>
                 </ul>
             </div>
@@ -100,7 +100,7 @@ export default function Navbar() {
                     <Link href={"/products"} className="transition ease-in-out hover:text-red-400">خانه و آشپزخانه</Link>
                     <Link href={"/products"} className="transition ease-in-out hover:text-red-400">خودرو و ابزار</Link>
                     <Link href={"/products"} className="transition ease-in-out hover:text-red-400">سوپر مارکت</Link>
-                    <Link href={"/products"} className="transition ease-in-out hover:text-red-400">تماس با ما</Link>
+                    <Link href={"/cantact"} className="transition ease-in-out hover:text-red-400">تماس با ما</Link>
                     <Link href={"/products"} className="transition ease-in-out hover:text-red-400">بلاگ</Link>
                 </ul>
                 <div className="flex gap-4 items-center">
