@@ -5,7 +5,7 @@ import Image from "next/image"
 export default function NewProduct() {
     return (
         <>
-            <div className="mt-12 flex flex-col gap-8 px-[200px]">
+            <div className="mt-12 flex flex-col gap-8 px-[200px] sm:px-0 md:p-0 xl:px-8">
                 <Title title="جدیدترین محصولات فروشگاه" />
                 <div className="grid grid-cols-5 gap-4 sm:grid-cols-1 md:grid-cols-2">
                     <div className="p-4 border rounded overflow-hidden shadow flex flex-col items-center justify-center group">
@@ -100,10 +100,10 @@ export default function NewProduct() {
                 </div>
                 <div className="flex items-center justify-center mt-4">
                     <div className="flex items-center justify-center gap-8 sm:flex-col sm:w-full md:flex-col">
-                        <Link href={"#"} className="w-[580px] sm:w-full md:w-[600px] ">
+                        <Link href={"#"} className="w-[580px] sm:w-full md:full xl:w-full ">
                             <Image src={"/imgs/22.webp"} width={200} height={100} className=" rounded-md w-full " />
                         </Link>
-                        <Link href={"#"} className="w-[580px] sm:w-full md:w-[600px] ">
+                        <Link href={"#"} className="w-[580px] sm:w-full md:w-full xl:w-full ">
                             <Image src={"/imgs/33.webp"} width={200} height={100} className=" rounded-md w-full " />
                         </Link>
                     </div>

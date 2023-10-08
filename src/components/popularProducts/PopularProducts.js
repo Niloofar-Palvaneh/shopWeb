@@ -6,7 +6,7 @@ export default function PopularProducts() {
 
     return (
         <>
-            <div className="mt-24 flex flex-col gap-8 px-[200px]">
+            <div className="mt-24 flex flex-col gap-8 px-[200px] sm:px-0 md:p-0 xl:px-8">
                 <Title title="پرفروش ترین محصولات فروشگاه" />
                 <div className="grid grid-cols-5 gap-4 sm:grid-cols-1 md:grid-cols-2">
                     <div className="p-4 border rounded overflow-hidden shadow flex flex-col items-center justify-center group">
@@ -101,10 +101,10 @@ export default function PopularProducts() {
                 </div>
                 <div className="flex items-center justify-center mt-4">
                     <div className="flex items-center justify-center gap-8 sm:flex-col md:flex-col sm:w-full">
-                        <Link href={"#"} className="w-[580px] sm:w-full md:w-[600px]">
+                        <Link href={"#"} className="w-[580px] sm:w-full md:w-[600px] sm:w-full md:full xl:w-full">
                             <Image src={"/imgs/55.webp"} width={200} height={100} className="w-full rounded-md" />
                         </Link>
-                        <Link href={"#"} className="w-[580px] sm:w-full md:w-[600px]">
+                        <Link href={"#"} className="w-[580px] sm:w-full md:w-[600px] sm:w-full md:full xl:w-full">
                             <Image src={"/imgs/66.webp"} width={200} height={100} className="w-full rounded-md" />
                         </Link>
                     </div>

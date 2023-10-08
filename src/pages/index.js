@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <>
     <Header/>
-      <div className='mt-24 px-[200px]'>
+      <div className='mt-24 px-[200px] sm:px-0 md:p-0 xl:px-8'>
         <div className='flex items-cente sm:flex-col'>
           <Title title="دسته بندی مورد نظر خود را انتخاب کنید" />
           <p className='text-gray-500'>

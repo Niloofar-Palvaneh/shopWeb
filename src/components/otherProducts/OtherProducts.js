@@ -13,7 +13,7 @@ export default function OtherProducts() {
 
     return (
         <>
-            <div className='mt-24 px-[200px]'>
+            <div className='mt-24 px-[200px] sm:px-0 md:p-0 xl:px-8'>
                 <Title title="سایر محصولات فروشگاه" />
                 <div className='w-full flex items-center justify-center'>
                     <Swiper

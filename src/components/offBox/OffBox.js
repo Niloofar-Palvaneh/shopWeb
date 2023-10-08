@@ -18,7 +18,7 @@ export default function OffBox() {
     return (
         <>
 
-            <div className={`mx-[200px] bg-orange-600 p-6 rounded-xl mt-12 ${showOffBox && "hidden"}`}>
+            <div className={`mx-[200px] sm:mx-0 bg-orange-600 p-6 rounded-xl mt-12 ${showOffBox && "hidden"}`}>
                 <div>
                     <div className='text-white flex items-center justify-between sm:flex-col sm:gap-4'>
                         <span className='text-xl font-bold flex items-center gap-2'>

@@ -11,7 +11,7 @@ export default function Blogs() {
                             گوشی سامسونگ نخرید!
                         </h1>
                         <Image
-                            className="w-full rounded"
+                            className="w-full"
                             src={"/imgs/blog1.webp"} width={200} height={200} alt="blog1" />
                         <div className="flex flex-col p-4 gap-4">
                             <p className="text-sm text-gray-500 leading-7 line-clamp-4 w-full">
@@ -31,7 +31,7 @@ export default function Blogs() {
                             گوگل جاسوس است !
                         </h1>
                         <Image
-                            className="w-full rounded"
+                            className="w-full"
                             src={"/imgs/blog2.webp"} width={200} height={200} alt="blog1" />
                         <div className="flex flex-col p-4 gap-4">
                             <p className="text-sm text-gray-500 leading-7 line-clamp-4 w-full">
@@ -51,7 +51,7 @@ export default function Blogs() {
                             بهترین تم رنگی اتاق خواب
                         </h1>
                         <Image
-                            className="w-full rounded"
+                            className="w-full"
                             src={"/imgs/blog3.webp"} width={200} height={200} alt="blog1" />
                         <div className="flex flex-col p-4 gap-4">
                             <p className="text-sm text-gray-500 leading-7 line-clamp-4 w-full">
