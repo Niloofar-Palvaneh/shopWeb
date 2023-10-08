@@ -90,7 +90,7 @@ export default function Navbar() {
                     <Link href={"/products"} className="transition ease-in-out hover:text-red-400">خودرو و ابزار</Link>
                     <Link href={"/products"} className="transition ease-in-out hover:text-red-400">سوپر مارکت</Link>
                     <Link href={"/cantact"} className="transition ease-in-out hover:text-red-400">تماس با ما</Link>
-                    <Link href={"/products"} className="transition ease-in-out hover:text-red-400">بلاگ</Link>
+                    <Link href={"/blogs"} className="transition ease-in-out hover:text-red-400">بلاگ</Link>
                 </ul>
             </div>
             <div className="flex px-[200px] py-4 items-center justify-between shadow-[0px_19px_19px_0px_#00000024] z-10 xl:px-[10px]">
@@ -101,7 +101,7 @@ export default function Navbar() {
                     <Link href={"/products"} className="transition ease-in-out hover:text-red-400">خودرو و ابزار</Link>
                     <Link href={"/products"} className="transition ease-in-out hover:text-red-400">سوپر مارکت</Link>
                     <Link href={"/cantact"} className="transition ease-in-out hover:text-red-400">تماس با ما</Link>
-                    <Link href={"/products"} className="transition ease-in-out hover:text-red-400">بلاگ</Link>
+                    <Link href={"/blogs"} className="transition ease-in-out hover:text-red-400">بلاگ</Link>
                 </ul>
                 <div className="flex gap-4 items-center">
                     <Link href={"#"} className="transition ease-in-out hover:bg-gray-100 p-[5px] rounded-xl">
