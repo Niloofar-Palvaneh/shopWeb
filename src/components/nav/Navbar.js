@@ -85,51 +85,44 @@ export default function Navbar() {
                         <AiOutlineClose className="text-3xl bg-gray-400 p-2 text-red-500" />
                     </div>
                     <Link
-                    onClick={ShowMobileMenuHandler}
-                    href={"/products"} className="transition ease-in-out hover:text-red-400 active">خانه</Link>
+                        onClick={ShowMobileMenuHandler}
+                        href={"/products"} className="transition ease-in-out hover:text-red-400 active">خانه</Link>
                     <Link
-                    onClick={ShowMobileMenuHandler}
-                    href={"/products"} className="transition ease-in-out hover:text-red-400">کالای دیجیتال</Link>
+                        onClick={ShowMobileMenuHandler}
+                        href={"/products"} className="transition ease-in-out hover:text-red-400">کالای دیجیتال</Link>
                     <Link
-                    onClick={ShowMobileMenuHandler}
-                    href={"/products"} className="transition ease-in-out hover:text-red-400">خانه و آشپزخانه</Link>
+                        onClick={ShowMobileMenuHandler}
+                        href={"/products"} className="transition ease-in-out hover:text-red-400">خانه و آشپزخانه</Link>
                     <Link
-                    onClick={ShowMobileMenuHandler}
-                    href={"/products"} className="transition ease-in-out hover:text-red-400">خودرو و ابزار</Link>
+                        onClick={ShowMobileMenuHandler}
+                        href={"/products"} className="transition ease-in-out hover:text-red-400">خودرو و ابزار</Link>
                     <Link
-                    onClick={ShowMobileMenuHandler}
-                    href={"/products"} className="transition ease-in-out hover:text-red-400">سوپر مارکت</Link>
+                        onClick={ShowMobileMenuHandler}
+                        href={"/products"} className="transition ease-in-out hover:text-red-400">سوپر مارکت</Link>
                     <Link
-                    onClick={ShowMobileMenuHandler}
-                    href={"/cantact"} className="transition ease-in-out hover:text-red-400">تماس با ما</Link>
+                        onClick={ShowMobileMenuHandler}
+                        href={"/cantact"} className="transition ease-in-out hover:text-red-400">تماس با ما</Link>
                     <Link
-                    onClick={ShowMobileMenuHandler}
-                    href={"/blogs"} className="transition ease-in-out hover:text-red-400">بلاگ</Link>
+                        onClick={ShowMobileMenuHandler}
+                        href={"/blogs"} className="transition ease-in-out hover:text-red-400">بلاگ</Link>
                 </ul>
             </div>
             <div className="flex px-[200px] py-4 items-center justify-between shadow-[0px_19px_19px_0px_#00000024] z-10 xl:px-[10px]">
                 <ul className="flex gap-4 xl:text-sm md:hidden">
                     <Link
-                    onClick={ShowMobileMenuHandler}
-                    href={"/products"} className="transition ease-in-out hover:text-red-400 active nn">خانه</Link>
+                        href={"/products"} className="transition ease-in-out hover:text-red-400 active nn">خانه</Link>
                     <Link
-                    onClick={ShowMobileMenuHandler}
-                    href={"/products"} className="transition ease-in-out hover:text-red-400">کالای دیجیتال</Link>
+                        href={"/products"} className="transition ease-in-out hover:text-red-400">کالای دیجیتال</Link>
                     <Link
-                    onClick={ShowMobileMenuHandler}
-                    href={"/products"} className="transition ease-in-out hover:text-red-400">خانه و آشپزخانه</Link>
+                        href={"/products"} className="transition ease-in-out hover:text-red-400">خانه و آشپزخانه</Link>
                     <Link
-                    onClick={ShowMobileMenuHandler}
-                    href={"/products"} className="transition ease-in-out hover:text-red-400">خودرو و ابزار</Link>
+                        href={"/products"} className="transition ease-in-out hover:text-red-400">خودرو و ابزار</Link>
                     <Link
-                    onClick={ShowMobileMenuHandler}
-                    href={"/products"} className="transition ease-in-out hover:text-red-400">سوپر مارکت</Link>
+                        href={"/products"} className="transition ease-in-out hover:text-red-400">سوپر مارکت</Link>
                     <Link
-                    onClick={ShowMobileMenuHandler}
-                    href={"/cantact"} className="transition ease-in-out hover:text-red-400">تماس با ما</Link>
+                        href={"/cantact"} className="transition ease-in-out hover:text-red-400">تماس با ما</Link>
                     <Link
-                    onClick={ShowMobileMenuHandler}
-                    href={"/blogs"} className="transition ease-in-out hover:text-red-400">بلاگ</Link>
+                        href={"/blogs"} className="transition ease-in-out hover:text-red-400">بلاگ</Link>
                 </ul>
                 <div className="flex gap-4 items-center">
                     <Link href={"#"} className="transition ease-in-out hover:bg-gray-100 p-[5px] rounded-xl">
